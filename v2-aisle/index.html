@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Beiman Cohen Biran | ביתנים לחברות סייבר</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500;600&family=Barlow:wght@400;500;600&family=Noto+Sans+Hebrew:wdth,wght@62.5,300;62.5,600;75,300;75,600;100,400;100,500;100,600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero/plate.webp">
+<link rel="stylesheet" href="aisle.css">
+<link rel="icon" href="assets/mark.png">
+</head>
+<body>
+<div class="ambient" aria-hidden="true"></div>
+
+<!-- Overhead aisle sign: the hall map. Names the booth in front of you; every name jumps. -->
+<header class="sign" id="top">
+  <a class="sign__brand" href="#top" aria-label="Beiman Cohen Biran">
+    <img src="assets/mark.png" alt="" width="40" height="36">
+    <span>Beiman Cohen Biran</span>
+  </a>
+  <p class="sign__now" aria-live="polite"><span class="sign__dot"></span><span data-now>Zero Networks</span><span class="sign__show" data-now-show>Black Hat USA 2025</span></p>
+  <nav class="sign__map" aria-label="מסדרון">
+    <button type="button" data-go="entrance">Zero</button>
+    <button type="button" data-go="0">Novee</button>
+    <button type="button" data-go="1">Astelia</button>
+    <button type="button" data-go="2">Cognyte</button>
+    <button type="button" data-go="3">Pentera</button>
+    <button type="button" data-go="4">OX</button>
+    <button type="button" data-go="5">Sepio</button>
+    <button type="button" data-go="your-booth" class="sign__yours"><span class="he">שלכם</span><span class="en">Yours</span></button>
+  </nav>
+  <div class="sign__end">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="he" aria-pressed="true"><span>עב</span></button>
+      <button type="button" data-lang="en" aria-pressed="false"><span>EN</span></button>
+    </div>
+    <a class="btn btn--sign" href="#your-booth"><span class="he">לדבר עם מתן</span><span class="en">Talk to Matan</span></a>
+  </div>
+</header>
+
+<main>
+<!-- ACT 1 · ENTRANCE: four planes cut by hand from one photo (Zero Networks, Black Hat USA 2025) -->
+<section class="entrance" id="entrance" aria-labelledby="h1">
+  <div class="entrance__stage">
+    <div class="scene" data-scene>
+      <img class="pl pl--plate" src="assets/hero/plate.webp" alt="" width="1600" height="989" fetchpriority="high">
+      <img class="pl pl--booth" src="assets/hero/booth.webp" alt="" width="1600" height="989">
+      <img class="pl pl--counter" src="assets/hero/counter.webp" alt="" width="1600" height="989">
+      <img class="pl pl--ring" src="assets/hero/ring.webp" alt="הביתן של Zero Networks ב-Black Hat 2025: טבעת תלויה עם כדורי אור טורקיז מעל כיפה פתוחה" width="1600" height="989">
+    </div>
+    <div class="haze" aria-hidden="true"></div>
+    <div class="entrance__copy" data-hcopy>
+      <h1 id="h1">
+        <span class="he">ביתנים<br class="d"> שעוצרים<br>את המסדרון</span>
+        <span class="en">Booths<br class="d"> that stop<br>the aisle</span>
+      </h1>
+      <p class="lede">
+        <span class="he">Beiman Cohen Biran מתכננים ובונים ביתנים לתערוכות בחו״ל, מהקונספט ועד ההקמה באולם. אלה ביתנים שבנינו לחברות סייבר.</span>
+        <span class="en">Beiman Cohen Biran design and build exhibition booths abroad, from concept to the build on the show floor. These are booths we built for cyber companies.</span>
+      </p>
+      <a class="btn btn--light" href="#your-booth"><span class="he">לדבר עם מתן על הביתן</span><span class="en">Talk to Matan about your booth</span></a>
+    </div>
+    <button type="button" class="tag tag--hero" data-open="zero" data-hlabel>
+      <b>Zero Networks</b>
+      <span>Black Hat USA 2025, <span class="he">לאס וגאס</span><span class="en">Las Vegas</span></span>
+      <span class="tag__light"><i style="background:#18e9d9"></i>#18e9d9</span>
+      <span class="tag__more"><span class="he">7 תמונות</span><span class="en">7 photos</span></span>
+    </button>
+  </div>
+</section>
+
+<!-- ACT 3 · THE AISLE: one lateral walk. Booths at three depths; the hall takes each booth's light. -->
+<section class="aisle" id="aisle" aria-label="המסדרון">
+  <div class="aisle__stage">
+    <div class="ceil" aria-hidden="true"><div class="ceil__row ceil__row--far"></div><div class="ceil__row"></div></div>
+    <div class="floor" aria-hidden="true"><div class="floor__plane"></div></div>
+    <!-- ACT 2 · BADGE-IN, now inside the hall: the first booth's light is already leaking in -->
+    <p class="aisle__intro" data-intro>
+      <span class="he">בערב שלפני הפתיחה האולם כבה, ונשארים רק הביתנים. כל ביתן במסדרון הזה נבנה על ידינו, והאור על המסך הוא האור שלו, נמדד מהתמונה.</span>
+      <span class="en">The night before opening, the hall goes dark and only the booths stay lit. We built every booth in this aisle, and the light on your screen is its light, measured from the photo.</span>
+    </p>
+    <div class="track">
+
+      <article class="booth" data-c="#6048a0" data-id="novee" data-show="Black Hat USA 2026">
+        <img class="b-far" src="assets/cyber/black-hat-2026-novee-6-s.webp" alt="" loading="lazy" width="600" height="800">
+        <figure class="b-main">
+          <img src="assets/cyber/black-hat-2026-novee-2-s.webp" srcset="assets/cyber/black-hat-2026-novee-2-s.webp 800w, assets/cyber/black-hat-2026-novee-2.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="NoveeGym: ביתן חדר כושר בסגול, עם מתקני משקולות ודמות מנורה בגובה הקיר" width="800" height="534">
+          <img class="b-refl" src="assets/cyber/black-hat-2026-novee-2-s.webp" alt="" width="800" height="534" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/black-hat-2026-novee-4-s.webp" alt="שלט ניאון OPEN 24/7 בביתן של Novee" loading="lazy" width="800" height="534">
+        <button type="button" class="tag" data-open="novee">
+          <b>Novee</b>
+          <span>Black Hat USA 2026, <span class="he">לאס וגאס</span><span class="en">Las Vegas</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">8 תמונות</span><span class="en">8 photos</span></span>
+        </button>
+      </article>
+
+      <article class="booth" data-c="#4a8822" data-id="astelia" data-show="Black Hat USA 2026">
+        <img class="b-far" src="assets/cyber/black-hat-2026-astelia-3-s.webp" alt="" loading="lazy" width="800" height="600">
+        <figure class="b-main">
+          <img src="assets/cyber/black-hat-2026-astelia-2-s.webp" srcset="assets/cyber/black-hat-2026-astelia-2-s.webp 800w, assets/cyber/black-hat-2026-astelia-2.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="הביתן של Astelia: קירות ג׳ונגל של צמחייה חיה, גדמי עץ כמושבים ומסך בתוך הצמחייה" loading="lazy" width="800" height="600">
+          <img class="b-refl" src="assets/cyber/black-hat-2026-astelia-2-s.webp" alt="" width="800" height="600" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/black-hat-2026-astelia-4-s.webp" alt="נמר מצויר בין הצמחייה בביתן של Astelia" loading="lazy" width="600" height="800">
+        <button type="button" class="tag" data-open="astelia">
+          <b>Astelia</b>
+          <span>Black Hat USA 2026, <span class="he">לאס וגאס</span><span class="en">Las Vegas</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">5 תמונות</span><span class="en">5 photos</span></span>
+        </button>
+      </article>
+
+      <article class="booth" data-c="#5967a5" data-id="cognyte" data-show="ISS World 2024">
+        <img class="b-far" src="assets/cyber/iss-dubai-2024-cognyte-3-s.webp" alt="" loading="lazy" width="800" height="450">
+        <figure class="b-main">
+          <img src="assets/cyber/iss-dubai-2024-cognyte-1-s.webp" srcset="assets/cyber/iss-dubai-2024-cognyte-1-s.webp 800w, assets/cyber/iss-dubai-2024-cognyte-1.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="הביתן של Cognyte: קירות לבנים וכחולים, דלפק קבלה ומסגרת אור סביב מסך" loading="lazy" width="800" height="450">
+          <img class="b-refl" src="assets/cyber/iss-dubai-2024-cognyte-1-s.webp" alt="" width="800" height="450" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/iss-dubai-2024-cognyte-2-s.webp" alt="פינת הישיבה בביתן של Cognyte" loading="lazy" width="800" height="450">
+        <button type="button" class="tag" data-open="cognyte">
+          <b>Cognyte</b>
+          <span>ISS World 2024, <span class="he">דובאי</span><span class="en">Dubai</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">3 תמונות</span><span class="en">3 photos</span></span>
+        </button>
+      </article>
+
+      <article class="booth" data-c="#cb7e27" data-id="pentera" data-show="Cybertech, GISEC 2023">
+        <img class="b-far" src="assets/cyber/gices-2023-dubai-pentera-5-s.webp" alt="" loading="lazy" width="600" height="800">
+        <figure class="b-main">
+          <img src="assets/cyber/cybertech-2023-pentera-1-s.webp" srcset="assets/cyber/cybertech-2023-pentera-1-s.webp 800w, assets/cyber/cybertech-2023-pentera-1.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="הביתן של Pentera ב-Cybertech: כלוב זכוכית עם מדרגות זהב מתחת לטבעת תלויה" loading="lazy" width="800" height="600">
+          <img class="b-refl" src="assets/cyber/cybertech-2023-pentera-1-s.webp" alt="" width="800" height="600" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/cybertech-2023-pentera-3-s.webp" alt="משחק Security Exposure בתוך הכלוב של Pentera" loading="lazy" width="374" height="800">
+        <button type="button" class="tag" data-open="pentera">
+          <b>Pentera</b>
+          <span>Cybertech 2023, <span class="he">תל אביב</span><span class="en">Tel Aviv</span></span>
+          <span>GISEC 2023, <span class="he">דובאי</span><span class="en">Dubai</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">8 תמונות</span><span class="en">8 photos</span></span>
+        </button>
+      </article>
+
+      <article class="booth" data-c="#4c5193" data-id="ox" data-show="RSAC 2026">
+        <img class="b-far" src="assets/cyber/rsa-2026-ox-4-s.webp" alt="" loading="lazy" width="600" height="800">
+        <figure class="b-main">
+          <img src="assets/cyber/rsa-2026-ox-6-s.webp" srcset="assets/cyber/rsa-2026-ox-6-s.webp 800w, assets/cyber/rsa-2026-ox-6.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="The OX BOX: ביתן בצורת קופסה בגווני לבנדר, עם מדפי אוסף ופינת ישיבה" loading="lazy" width="800" height="600">
+          <img class="b-refl" src="assets/cyber/rsa-2026-ox-6-s.webp" alt="" width="800" height="600" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/rsa-2026-ox-1-s.webp" alt="שלט OX BOX בסגנון פיקסלים מעל הביתן" loading="lazy" width="600" height="800">
+        <button type="button" class="tag" data-open="ox">
+          <b>OX Security</b>
+          <span>RSAC 2026, <span class="he">סן פרנסיסקו</span><span class="en">San Francisco</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">8 תמונות</span><span class="en">8 photos</span></span>
+        </button>
+      </article>
+
+      <article class="booth" data-c="#699dd8" data-id="sepio" data-show="RSAC 2024, Infosecurity 2025">
+        <img class="b-far" src="assets/cyber/infosec-2025-sepio-1-s.webp" alt="" loading="lazy" width="450" height="800">
+        <figure class="b-main">
+          <img src="assets/cyber/rsa-2024-sepio-1-s.webp" srcset="assets/cyber/rsa-2024-sepio-1-s.webp 800w, assets/cyber/rsa-2024-sepio-1.webp 1800w" sizes="(max-width: 760px) 88vw, 56vw" alt="הביתן של Sepio ב-RSAC: לוגו מואר, טבעת אור על הקיר ופינת ספות" loading="lazy" width="800" height="601">
+          <img class="b-refl" src="assets/cyber/rsa-2024-sepio-1-s.webp" alt="" width="800" height="601" loading="lazy">
+          <span class="b-dim"></span>
+        </figure>
+        <img class="b-near" src="assets/cyber/infosec-2025-sepio-2-s.webp" alt="הביתן של Sepio ב-Infosecurity Europe" loading="lazy" width="600" height="800">
+        <button type="button" class="tag" data-open="sepio">
+          <b>Sepio</b>
+          <span>RSAC 2024, <span class="he">סן פרנסיסקו</span><span class="en">San Francisco</span></span>
+          <span>Infosecurity Europe 2025, <span class="he">לונדון</span><span class="en">London</span></span>
+          <span class="tag__light"><i></i><span data-hex></span></span>
+          <span class="tag__more"><span class="he">6 תמונות</span><span class="en">6 photos</span></span>
+        </button>
+      </article>
+
+    </div>
+    <!-- ACT 4 · END OF THE AISLE: a short held breath over the last booth's fading light -->
+    <p class="aisle__outro" data-outro><span class="he">בסוף המסדרון<br>יש עוד מקום אחד.</span><span class="en">At the end of the aisle<br>there is one more space.</span></p>
+  </div>
+</section>
+
+<!-- ACT 5 · YOUR BOOTH (PEAK): the lights come on; the counter is the form -->
+<section class="yours" id="your-booth" aria-labelledby="yours-h">
+  <div class="yours__rig" aria-hidden="true">
+    <span class="truss"></span>
+    <span class="beam b1"></span><span class="beam b2"></span><span class="beam b3"></span>
+  </div>
+  <div class="yours__fascia" aria-live="polite">
+    <span class="fascia__name" data-fascia-name><span class="he">השם שלכם כאן</span><span class="en">Your name here</span></span>
+    <span class="fascia__show" data-fascia-show>2027</span>
+  </div>
+  <div class="yours__wall">
+    <h2 id="yours-h">
+      <span class="he">הביתן הבא במסדרון<br>יכול להיות שלכם.</span>
+      <span class="en">The next booth in the aisle<br>could be yours.</span>
+    </h2>
+    <p class="yours__sub">
+      <span class="he">מציגים ב-2027? ספרו למתן באיזו תערוכה, ונקבע שיחה על הביתן: מה אתם רוצים שיקרה בו, איך הוא ייראה, ואיך הוא עולה באולם.</span>
+      <span class="en">Exhibiting in 2027? Tell Matan which show, and we will set a call about the booth: what you want to happen in it, how it will look, and how it goes up on the floor.</span>
+    </p>
+    <div class="shows" role="group" aria-label="תערוכות 2027">
+      <button type="button" data-show="ISS World MEA" data-when="16–18.3.2027"><b>ISS World MEA</b><span>16–18.3.2027</span></button>
+      <button type="button" data-show="RSAC" data-when="5–8.4.2027"><b>RSAC</b><span>5–8.4.2027</span></button>
+      <button type="button" data-show="GISEC" data-when="4–6.5.2027"><b>GISEC</b><span>4–6.5.2027</span></button>
+      <button type="button" data-show="ISS World Europe" data-when="1–3.6.2027"><b>ISS World Europe</b><span>1–3.6.2027</span></button>
+      <button type="button" data-show="Infosecurity Europe" data-when="8–10.6.2027"><b>Infosecurity Europe</b><span>8–10.6.2027</span></button>
+      <button type="button" data-show="Black Hat USA" data-when="31.7–5.8.2027"><b>Black Hat USA</b><span>31.7–5.8.2027</span></button>
+      <button type="button" data-show="it-sa" data-when="5–7.10.2027"><b>it-sa</b><span>5–7.10.2027</span></button>
+    </div>
+  </div>
+
+  <form class="counter" id="lead" novalidate>
+    <div class="counter__top" aria-hidden="true"></div>
+    <div class="counter__face">
+      <label><span data-t="name">שם</span><input name="name" autocomplete="name" required></label>
+      <label><span data-t="company">חברה</span><input name="company" autocomplete="organization" required data-company></label>
+      <label><span data-t="show">באיזו תערוכה?</span>
+        <select name="show" required data-show-select>
+          <option value="" data-t="pick">בחירה</option>
+          <option>ISS World MEA</option><option>RSAC</option><option>GISEC</option><option>ISS World Europe</option>
+          <option>Infosecurity Europe</option><option>Black Hat USA</option><option>it-sa</option>
+          <option value="other" data-t="other">תערוכה אחרת</option>
+        </select>
+      </label>
+      <label><span data-t="size">גודל ביתן משוער</span>
+        <select name="size">
+          <option value="" data-t="unknown">עוד לא יודעים</option>
+          <option>10x10 ft</option><option>10x20 ft</option><option>20x20 ft</option><option>20x30 ft</option><option>30x30 ft+</option>
+        </select>
+      </label>
+      <label><span data-t="phone">טלפון</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" dir="ltr"></label>
+      <label><span data-t="email">אימייל</span><input name="email" type="email" autocomplete="email" dir="ltr"></label>
+      <p class="counter__hint"><span class="he">טלפון או אימייל, אחד מהם מספיק.</span><span class="en">Phone or email, either is enough.</span></p>
+      <div class="counter__act">
+        <button class="btn btn--ochre" type="submit"><span class="he">לדבר עם מתן על הביתן</span><span class="en">Talk to Matan about your booth</span></button>
+        <button class="btn btn--ghost" type="button" data-wa><span class="he">או בוואטסאפ</span><span class="en">Or on WhatsApp</span></button>
+      </div>
+    </div>
+    <div class="thanks" tabindex="-1">
+      <p class="thanks__h"><span class="he">רשמנו. מתן יחזור אליכם.</span><span class="en">Noted. Matan will get back to you.</span></p>
+      <p><span class="he">טיוטה: הטופס עוד לא שולח. בגרסה החיה הפרטים יגיעו ישר למתן.</span><span class="en">Draft: the form does not send yet. In the live version the details go straight to Matan.</span></p>
+    </div>
+  </form>
+  <div class="yours__floor" aria-hidden="true"></div>
+</section>
+</main>
+
+<!-- ACT 6 · CLOSE: it holds -->
+<footer class="close">
+  <img src="assets/logo.png" alt="Beiman Cohen Biran, Exhibition Design" width="111" height="200" loading="lazy">
+  <div class="close__txt">
+    <p><span class="he">תכנון והקמה של ביתנים בתערוכות בחו״ל. הרצליה.</span><span class="en">Exhibition booths abroad, designed and built. Herzliya.</span></p>
+    <p class="close__names">Aizik Beiman, Ilan Biran, Noam Cohen</p>
+  </div>
+  <a class="btn btn--ochre" href="#your-booth"><span class="he">לדבר עם מתן על הביתן</span><span class="en">Talk to Matan about your booth</span></a>
+</footer>
+
+<div class="draft" role="note"><span class="he">טיוטה פנימית לשיחה עם BCB. שמות הלקוחות ממתינים לאישור, הטופס לא שולח.</span><span class="en">Internal draft for BCB. Client names await approval; the form does not send.</span></div>
+
+<dialog class="viewer" aria-label="תמונות הביתן">
+  <div class="viewer__bar">
+    <p class="viewer__title" data-vtitle></p>
+    <button type="button" class="viewer__x" data-vclose aria-label="סגירה">✕</button>
+  </div>
+  <div class="viewer__strip" data-vstrip tabindex="0"></div>
+  <div class="viewer__nav">
+    <button type="button" data-vstep="-1" aria-label="הקודמת">‹</button>
+    <span data-vcount></span>
+    <button type="button" data-vstep="1" aria-label="הבאה">›</button>
+  </div>
+</dialog>
+
+<script src="aisle.js"></script>
+</body>
+</html>

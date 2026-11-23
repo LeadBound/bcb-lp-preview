@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>BCB, מרצפה ריקה לביתן</title>
+<meta name="description" content="Beiman Cohen Biran: תכנון והקמה של ביתנים לחברות סייבר בתערוכות בחו״ל.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&family=Karantina:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/plate-d.webp" media="(min-aspect-ratio: 1/1)">
+<link rel="preload" as="image" href="assets/plate-m.webp" media="(max-aspect-ratio: 1/1)">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<a class="skip" href="#offer"><span class="he">דילוג לטופס</span><span class="en">Skip to the form</span></a>
+
+<header class="bar">
+  <a class="brand" href="#top" aria-label="Beiman Cohen Biran">
+    <img src="assets/mark.png" alt="" width="40" height="36">
+    <span class="wm">BEIMAN<br>COHEN<br>BIRAN</span>
+  </a>
+  <div class="bar-end">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="he" aria-pressed="true"><span>עב</span></button>
+      <button type="button" data-lang="en" aria-pressed="false"><span>EN</span></button>
+    </div>
+    <a class="btn btn-bar" href="#offer"><span class="he">לדבר עם מתן</span><span class="en">Talk to Matan</span></a>
+  </div>
+</header>
+
+<!-- Film bar: what you are watching + where you are in the build. Exists only while the film plays. -->
+<div class="filmbar" id="filmbar" aria-hidden="true">
+  <p class="fb-label"><span class="he"><b><bdi dir="ltr">Aristocrat · ICE</bdi> לונדון 2025</b> · הקמה אמיתית</span><span class="en"><b>Aristocrat · ICE London 2025</b> · a real build</span></p>
+  <ol class="phases">
+    <li data-ph="0"><span class="he">ריק</span><span class="en">Empty</span></li>
+    <li data-ph="1"><span class="he">רצפה</span><span class="en">Floor</span></li>
+    <li data-ph="2"><span class="he">מותג</span><span class="en">Brand</span></li>
+    <li data-ph="3"><span class="he">מבנה</span><span class="en">Structure</span></li>
+    <li data-ph="4"><span class="he">אור</span><span class="en">Light</span></li>
+    <li data-ph="5"><span class="he">קהל</span><span class="en">Crowd</span></li>
+    <i class="ph-fill"></i>
+  </ol>
+</div>
+
+<main id="top">
+
+<!-- ============ ACT 1-3: hero, the build, the wall (one pinned stage) ============ -->
+<section class="run" id="run" aria-label="איך ביתן עולה">
+  <div class="stage" id="stage">
+    <canvas id="film" aria-hidden="true"></canvas>
+
+    <div class="hero-planes" id="planes" aria-hidden="true">
+      <picture class="pl pl-back"><source media="(max-aspect-ratio: 1/1)" srcset="assets/plate-m.webp"><img src="assets/plate-d.webp" alt=""></picture>
+      <div class="pl pl-haze"></div>
+      <picture class="pl pl-floor"><source media="(max-aspect-ratio: 1/1)" srcset="assets/plate-m.webp"><img src="assets/plate-d.webp" alt=""></picture>
+      <div class="pl pl-shade"></div>
+      <div class="pl pl-ghost"><img src="assets/after-d.webp" alt=""></div>
+    </div>
+    <p class="ghost-cap" id="ghostCap"><span class="he"><b>אחרי:</b> אותה רצפה, ביום הפתיחה.</span><span class="en"><b>After:</b> the same floor, on opening day.</span></p>
+
+    <div class="hero-copy" id="heroCopy">
+      <h1>
+        <span class="he">מתכננים ובונים ביתנים לחברות סייבר בתערוכות בחו״ל.</span>
+        <span class="en">We design and build exhibition booths for cyber companies at shows abroad.</span>
+      </h1>
+      <p class="sub"><span class="he">מרצפה ריקה לביתן מלא.</span><span class="en">From bare concrete to a full booth.</span></p>
+    </div>
+
+    <p class="lede" id="heroTape">
+      <span class="he">Beiman Cohen Biran, הרצליה. מהקונספט ועד ההקמה באולם.</span>
+      <span class="en">Beiman Cohen Biran, Herzliya. From the concept to the build on the hall floor.</span>
+    </p>
+
+    <p class="invite" id="invite"><span class="he">גללו ותראו ביתן שלנו עולה, מהבוקר הראשון באולם.</span><span class="en">Scroll and watch one of our booths go up, from the first morning in the hall.</span></p>
+
+    <div class="chapters" aria-live="off">
+      <div class="chap c-floor" data-a="4" data-b="30">
+        <p class="big"><span class="he">קודם הרצפה.</span><span class="en">First, the floor.</span></p>
+        <p class="small"><span class="he">מסגרת מוגבהת, שטיח, וכל מה שאף מבקר לא יראה.</span><span class="en">A raised frame, carpet, and everything no visitor will ever see.</span></p>
+      </div>
+      <div class="chap c-brand" data-a="30" data-b="45">
+        <p class="big"><span class="he">אחר כך המותג.</span><span class="en">Then the brand.</span></p>
+        <p class="small"><span class="he">בגובה שרואים מקצה האולם.</span><span class="en">At a height you can read from the end of the hall.</span></p>
+      </div>
+      <div class="chap c-struct" data-a="45" data-b="72">
+        <p class="big"><span class="he">קירות, נגרות, גרפיקה.</span><span class="en">Walls, joinery, graphics.</span></p>
+        <p class="small"><span class="he">נבנים במקום, ביד, על ידי הצוות שתכנן אותם.</span><span class="en">Built on the spot, by hand, by the team that designed them.</span></p>
+      </div>
+      <div class="chap c-light" data-a="72" data-b="98">
+        <p class="big"><span class="he">ואז מדליקים את האור.</span><span class="en">Then the lights come on.</span></p>
+      </div>
+      <div class="chap c-crowd" data-a="98" data-b="118">
+        <p class="big"><span class="he">ובבוקר הראשון, הקהל נכנס.</span><span class="en">And on opening morning, the crowd walks in.</span></p>
+      </div>
+    </div>
+
+    <!-- the before/after beat, between the film and the pull-back -->
+    <div class="ba" id="ba" role="group" aria-label="לפני ואחרי">
+      <figure class="ba-before"><picture><source media="(max-aspect-ratio: 1/1)" srcset="assets/plate-m.webp"><img src="assets/plate-d.webp" alt="" loading="lazy"></picture>
+        <figcaption><b><span class="he">לפני</span><span class="en">Before</span></b><span class="he">הבוקר הראשון באולם. רצפת בטון ריקה.</span><span class="en">The first morning in the hall. Bare concrete.</span></figcaption></figure>
+      <figure class="ba-after"><picture><source media="(max-aspect-ratio: 1/1)" srcset="assets/after-m.webp"><img src="assets/after-d.webp" alt="" loading="lazy"></picture>
+        <figcaption><b><span class="he">אחרי</span><span class="en">After</span></b><span class="he">אותו מקום, ביום הפתיחה.</span><span class="en">The same spot, on opening day.</span></figcaption></figure>
+    </div>
+
+    <!-- ACT 3: the wall. The film lands in the centre cell. -->
+    <div class="wall-copy wc-top" id="wallTop">
+      <h2><span class="he"><span class="pre">זה היה ביתן גיימינג.</span>ככה זה נראה כשהלקוח הוא חברת סייבר:</span><span class="en"><span class="pre">That was a gaming booth.</span>This is what it looks like when the client is a cyber company:</span></h2>
+    </div>
+    <div class="wall" id="wall" role="list" aria-label="ביתני סייבר"></div>
+    <div class="wall-copy wc-bot" id="wallBot">
+      <p class="clients"><span>Zero Networks</span><span>OX Security</span><span>Novee</span><span>Astelia</span><span>Pentera</span><span>Sepio</span><span>Cognyte</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- Reduced-motion version of the build: six stills, no pinning -->
+<section class="rm-build" aria-label="איך ביתן עולה">
+  <ol>
+    <li><img src="assets/seq/d/f000.webp" alt="" loading="lazy"><p><span class="he">רצפה ריקה.</span><span class="en">An empty floor.</span></p></li>
+    <li><img src="assets/seq/d/f014.webp" alt="" loading="lazy"><p><span class="he">קודם הרצפה.</span><span class="en">First, the floor.</span></p></li>
+    <li><img src="assets/seq/d/f036.webp" alt="" loading="lazy"><p><span class="he">אחר כך המותג.</span><span class="en">Then the brand.</span></p></li>
+    <li><img src="assets/seq/d/f060.webp" alt="" loading="lazy"><p><span class="he">קירות, נגרות, גרפיקה.</span><span class="en">Walls, joinery, graphics.</span></p></li>
+    <li><img src="assets/seq/d/f076.webp" alt="" loading="lazy"><p><span class="he">ואז מדליקים את האור.</span><span class="en">Then the lights come on.</span></p></li>
+    <li><img src="assets/seq/d/f106.webp" alt="" loading="lazy"><p><span class="he">ובבוקר הראשון, הקהל נכנס.</span><span class="en">And on opening morning, the crowd walks in.</span></p></li>
+  </ol>
+</section>
+
+<!-- ============ ACT 4: four booths up close ============ -->
+<section class="spreads" aria-label="ביתנים">
+
+  <article class="spread" data-sp>
+    <figure class="sp-m" data-depth="-0.25"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-lv-2025-zero-3-s.webp"><img src="assets/cyber/black-hat-lv-2025-zero-3.webp" alt="Zero Networks booth, Black Hat 2025: glowing spheres over a dome" loading="lazy"></picture></figure>
+    <figure class="sp-a" data-depth="0.5"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-lv-2025-zero-2-s.webp"><img src="assets/cyber/black-hat-lv-2025-zero-2.webp" alt="" loading="lazy"></picture></figure>
+    <figure class="sp-b" data-depth="1"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-lv-2025-zero-6-s.webp"><img src="assets/cyber/black-hat-lv-2025-zero-6.webp" alt="" loading="lazy"></picture></figure>
+    <div class="sp-label">
+      <h3>Zero Networks</h3>
+      <p class="where"><span class="he">Black Hat USA, לאס וגאס, 2025</span><span class="en">Black Hat USA, Las Vegas, 2025</span></p>
+      <p class="see"><span class="he">כדורים זוהרים תלויים מעל כיפה פתוחה.</span><span class="en">Glowing spheres hung over an open dome.</span></p>
+      <button type="button" class="more" data-lb="zero"><span class="he">כל 7 התמונות</span><span class="en">All 7 photos</span></button>
+    </div>
+  </article>
+
+  <article class="spread flip" data-sp>
+    <figure class="sp-m" data-depth="-0.25"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-novee-3-s.webp"><img src="assets/cyber/black-hat-2026-novee-3.webp" alt="Novee booth, Black Hat 2026: a violet neon gym" loading="lazy"></picture></figure>
+    <figure class="sp-a" data-depth="0.5"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-novee-6-s.webp"><img src="assets/cyber/black-hat-2026-novee-6.webp" alt="" loading="lazy"></picture></figure>
+    <figure class="sp-b" data-depth="1"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-novee-4-s.webp"><img src="assets/cyber/black-hat-2026-novee-4.webp" alt="" loading="lazy"></picture></figure>
+    <div class="sp-label">
+      <h3>Novee</h3>
+      <p class="where"><span class="he">Black Hat USA, לאס וגאס, 2026</span><span class="en">Black Hat USA, Las Vegas, 2026</span></p>
+      <p class="see"><span class="he">חדר כושר בניאון סגול, עם שלט OPEN 24/7.</span><span class="en">A gym in violet neon, with an OPEN 24/7 sign.</span></p>
+      <button type="button" class="more" data-lb="novee"><span class="he">כל 8 התמונות</span><span class="en">All 8 photos</span></button>
+    </div>
+  </article>
+
+  <article class="spread" data-sp>
+    <figure class="sp-m" data-depth="-0.25"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-astelia-2-s.webp"><img src="assets/cyber/black-hat-2026-astelia-2.webp" alt="Astelia booth, Black Hat 2026: a living jungle" loading="lazy"></picture></figure>
+    <figure class="sp-a" data-depth="0.5"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-astelia-4-s.webp"><img src="assets/cyber/black-hat-2026-astelia-4.webp" alt="" loading="lazy"></picture></figure>
+    <figure class="sp-b" data-depth="1"><picture><source media="(max-width: 760px)" srcset="assets/cyber/black-hat-2026-astelia-1-s.webp"><img src="assets/cyber/black-hat-2026-astelia-1.webp" alt="" loading="lazy"></picture></figure>
+    <div class="sp-label">
+      <h3>Astelia</h3>
+      <p class="where"><span class="he">Black Hat USA, לאס וגאס, 2026</span><span class="en">Black Hat USA, Las Vegas, 2026</span></p>
+      <p class="see"><span class="he">ג׳ונגל חי, וגזעי עצים במקום כיסאות.</span><span class="en">A living jungle, with tree stumps for seats.</span></p>
+      <button type="button" class="more" data-lb="astelia"><span class="he">כל 5 התמונות</span><span class="en">All 5 photos</span></button>
+    </div>
+  </article>
+
+  <article class="spread flip" data-sp>
+    <figure class="sp-m" data-depth="-0.25"><picture><source media="(max-width: 760px)" srcset="assets/cyber/rsa-2026-ox-6-s.webp"><img src="assets/cyber/rsa-2026-ox-6.webp" alt="OX Security booth, RSAC 2026: the OX BOX" loading="lazy"></picture></figure>
+    <figure class="sp-a" data-depth="0.5"><picture><source media="(max-width: 760px)" srcset="assets/cyber/rsa-2026-ox-4-s.webp"><img src="assets/cyber/rsa-2026-ox-4.webp" alt="" loading="lazy"></picture></figure>
+    <figure class="sp-b" data-depth="1"><picture><source media="(max-width: 760px)" srcset="assets/cyber/rsa-2026-ox-1-s.webp"><img src="assets/cyber/rsa-2026-ox-1.webp" alt="" loading="lazy"></picture></figure>
+    <div class="sp-label">
+      <h3>OX Security</h3>
+      <p class="where"><span class="he">RSAC, סן פרנסיסקו, 2026</span><span class="en">RSAC, San Francisco, 2026</span></p>
+      <p class="see"><span class="he">OX BOX: קופסה סגולה עם קיר של מדפים.</span><span class="en">The OX BOX: a violet box with a wall of shelves.</span></p>
+      <button type="button" class="more" data-lb="ox"><span class="he">כל 8 התמונות</span><span class="en">All 8 photos</span></button>
+    </div>
+  </article>
+</section>
+
+<!-- ============ ACT 5: the rest, one wipe each ============ -->
+<section class="rest" aria-labelledby="restH">
+  <h2 id="restH"><span class="he">ועוד חמישה, מתל אביב ועד דובאי.</span><span class="en">Five more, from Tel Aviv to Dubai.</span></h2>
+  <ul class="plates">
+    <li><button type="button" class="plate" data-lb="pentera-ct"><img src="assets/cyber/cybertech-2023-pentera-1-s.webp" alt="" loading="lazy">
+      <span class="pl-l"><b>Pentera</b><i><span class="he">Cybertech, תל אביב, 2023</span><span class="en">Cybertech, Tel Aviv, 2023</span></i><em><span class="he">כלוב זכוכית וזהב, ומשחק במרכז.</span><span class="en">A glass and gold cage with a game inside.</span></em></span></button></li>
+    <li><button type="button" class="plate" data-lb="pentera-gices"><img src="assets/cyber/gices-2023-dubai-pentera-3-s.webp" alt="" loading="lazy">
+      <span class="pl-l"><b>Pentera</b><i><span class="he">GISEC, דובאי, 2023</span><span class="en">GISEC, Dubai, 2023</span></i><em><span class="he">דפנות זהב בדוגמה על כחול עמוק.</span><span class="en">Patterned gold panels on deep blue.</span></em></span></button></li>
+    <li><button type="button" class="plate" data-lb="sepio-info"><img src="assets/cyber/infosec-2025-sepio-2-s.webp" alt="" loading="lazy">
+      <span class="pl-l"><b>Sepio</b><i><span class="he">Infosecurity Europe, לונדון, 2025</span><span class="en">Infosecurity Europe, London, 2025</span></i><em><span class="he">לבן, עץ ונקודות אור.</span><span class="en">White, timber and point lights.</span></em></span></button></li>
+    <li><button type="button" class="plate" data-lb="sepio-rsa"><img src="assets/cyber/rsa-2024-sepio-2-s.webp" alt="" loading="lazy">
+      <span class="pl-l"><b>Sepio</b><i><span class="he">RSAC, סן פרנסיסקו, 2024</span><span class="en">RSAC, San Francisco, 2024</span></i><em><span class="he">טבעת אור על קיר לבן.</span><span class="en">A ring of light on a white wall.</span></em></span></button></li>
+    <li><button type="button" class="plate" data-lb="cognyte"><img src="assets/cyber/iss-dubai-2024-cognyte-1-s.webp" alt="" loading="lazy">
+      <span class="pl-l"><b>Cognyte</b><i><span class="he">ISS World, דובאי, 2024</span><span class="en">ISS World, Dubai, 2024</span></i><em><span class="he">לבן וכחול, קווים נקיים.</span><span class="en">White and blue, clean lines.</span></em></span></button></li>
+  </ul>
+</section>
+
+<!-- ============ ACT 6: quiet ============ -->
+<section class="quiet">
+  <p class="q1"><span class="he">מי שמתכנן את הביתן, גם מקים אותו.</span><span class="en">The people who design the booth also build it.</span></p>
+  <p class="q2"><span class="he">Aizik Beiman מתכנן. הצוות של Beiman Cohen Biran, עם השותפים Ilan Biran ו-Noam Cohen, מקים באולם. השיחה הראשונה היא עם מתן, על התערוכה שלכם.</span>
+  <span class="en">Aizik Beiman designs. The Beiman Cohen Biran team, with partners Ilan Biran and Noam Cohen, builds it in the hall. The first conversation is with Matan, about your show.</span></p>
+</section>
+
+<!-- ============ ACT 7: the peak. The empty floor returns, and it is theirs. ============ -->
+<section class="offer-run" id="offer" aria-labelledby="offerH">
+  <div class="o-stage" id="oStage">
+    <picture class="o-plate"><source media="(max-aspect-ratio: 1/1)" srcset="assets/plate-m.webp"><img src="assets/plate-d.webp" alt="" loading="lazy"></picture>
+    <div class="o-shade"></div>
+    <div class="o-floor" id="oFloor"><svg viewBox="0 0 100 56" preserveAspectRatio="none" aria-hidden="true"><g stroke="#080808" stroke-opacity=".16" stroke-width="1.2" vector-effect="non-scaling-stroke" fill="none"><line x1="50" y1="0" x2="-150" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="-125" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="-100" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="-75" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="-50" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="-25" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="0" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="25" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="50" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="75" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="100" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="125" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="150" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="175" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="200" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="225" y2="56" vector-effect="non-scaling-stroke"/><line x1="50" y1="0" x2="250" y2="56" vector-effect="non-scaling-stroke"/><line x1="-60" y1="12.25" x2="160" y2="12.25" vector-effect="non-scaling-stroke"/><line x1="-60" y1="29.58" x2="160" y2="29.58" vector-effect="non-scaling-stroke"/><line x1="-60" y1="40.09" x2="160" y2="40.09" vector-effect="non-scaling-stroke"/><line x1="-60" y1="45.78" x2="160" y2="45.78" vector-effect="non-scaling-stroke"/><line x1="-60" y1="49.00" x2="160" y2="49.00" vector-effect="non-scaling-stroke"/><line x1="-60" y1="50.95" x2="160" y2="50.95" vector-effect="non-scaling-stroke"/><line x1="-60" y1="52.20" x2="160" y2="52.20" vector-effect="non-scaling-stroke"/><line x1="-60" y1="53.04" x2="160" y2="53.04" vector-effect="non-scaling-stroke"/></g></svg><div class="o-mark" id="oMark" aria-hidden="true">2027</div></div>
+    <div class="o-head" id="oHead">
+      <h2 id="offerH"><span class="he"><span class="l1">הרצפה של 2027</span><span class="l2">עוד ריקה.</span></span><span class="en"><span class="l1">The 2027 floor</span><span class="l2">is still empty.</span></span></h2>
+    </div>
+    <div class="o-pick" id="oPick">
+      <p class="o-q"><span class="he">באיזו תערוכה אתם?</span><span class="en">Which show are you at?</span></p>
+      <div class="chips" id="chips" role="radiogroup" aria-label="Show"></div>
+      <p class="o-line" id="oLine" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<section class="form-sec" aria-label="טופס">
+  <div class="form-wrap">
+    <div class="form-intro">
+      <p class="fi-big"><span class="he">בואו נדבר על מה שיעמוד עליה.</span><span class="en">Let's talk about what stands on it.</span></p>
+      <p class="fi-sm"><span class="he">משאירים פרטים, ומתן חוזר אליכם עם ביתנים שבנינו לתערוכה שלכם. או ישר בוואטסאפ.</span><span class="en">Leave your details and Matan comes back with booths we built for your show. Or go straight to WhatsApp.</span></p>
+      <button type="button" class="btn btn-wa" data-wa="" id="waBtn"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg><span class="he">וואטסאפ למתן</span><span class="en">WhatsApp Matan</span></button>
+    </div>
+    <form class="lead-form" id="leadForm" novalidate>
+      <label><span class="he">שם</span><span class="en">Name</span><input name="name" required autocomplete="name"></label>
+      <label><span class="he">חברה</span><span class="en">Company</span><input name="company" required autocomplete="organization"></label>
+      <label><span class="he">באיזו תערוכה?</span><span class="en">Which show?</span>
+        <select name="show" id="showSel" required><option value="" data-t="pick">בחירה</option></select></label>
+      <label><span class="he">גודל ביתן משוער</span><span class="en">Approx. booth size</span>
+        <select name="size" required><option value="" data-t="pick">בחירה</option><option>עד 20 מ״ר / up to 20 m²</option><option>20-50 מ״ר / 20-50 m²</option><option>50-100 מ״ר / 50-100 m²</option><option>100+ מ״ר / 100+ m²</option><option data-t="unknown">עוד לא יודעים</option></select></label>
+      <label><span class="he">טלפון</span><span class="en">Phone</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" dir="ltr"></label>
+      <label><span class="he">אימייל</span><span class="en">Email</span><input name="email" type="email" autocomplete="email" dir="ltr"></label>
+      <button class="btn btn-send" type="submit"><span class="he">לדבר עם מתן</span><span class="en">Talk to Matan</span></button>
+      <small class="hint"><span class="he">טלפון או אימייל, אחד מהם מספיק.</span><span class="en">Phone or email, one is enough.</span></small>
+      <div class="thanks" tabindex="-1"><b><span class="he">נשלח למתן.</span><span class="en">Sent to Matan.</span></b><span class="he">הוא יחזור אליכם עם ביתנים שמתאימים לתערוכה שלכם.</span><span class="en">He will get back to you with booths that fit your show.</span></div>
+    </form>
+  </div>
+  <footer class="foot">
+    <img src="assets/logo.png" alt="Beiman Cohen Biran, Exhibition Design" width="88" height="159" loading="lazy">
+    <p><span class="he">המסכית 22, הרצליה פיתוח</span><span class="en">22 Maskit St, Herzliya Pituach, Israel</span></p>
+  </footer>
+</section>
+
+</main>
+
+<div class="draft" role="note"><span class="he">טיוטה פנימית לשיחה עם BCB. שמות הלקוחות ממתינים לאישור, הטופס לא שולח.</span><span class="en">Internal draft for a conversation with BCB. Client names pending approval, the form does not send.</span></div>
+
+<dialog class="lb" id="lb" aria-labelledby="lbTitle">
+  <div class="lb-bar"><strong id="lbTitle"></strong><span id="lbCount"></span><button type="button" id="lbClose" aria-label="Close">×</button></div>
+  <div class="lb-stage"><img id="lbImg" alt=""></div>
+  <div class="lb-nav"><button type="button" id="lbPrev" aria-label="Previous">‹</button><button type="button" id="lbNext" aria-label="Next">›</button></div>
+</dialog>
+
+<script src="core.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

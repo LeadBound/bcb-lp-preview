@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>המגרש | ביימן כהן בירן</title>
+<meta name="description" content="ביתנים שביימן כהן בירן תכננו ובנו לחברות סייבר, על תוכנית האולם.">
+<link rel="icon" href="assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Noto+Sans+Hebrew:wdth,wght@62.5..100,400..900&display=swap">
+<link rel="stylesheet" href="scrollcraft.css">
+<link rel="stylesheet" href="plot.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="brand" href="#top" aria-label="Beiman Cohen Biran">
+    <img src="assets/mark.png" alt="" width="40" height="36">
+    <span class="brand__word">Beiman<br>Cohen<br>Biran</span>
+  </a>
+  <div class="bar__end">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="he" aria-pressed="true">עב</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="cta-chip" href="#offer"><span data-dyn="cta">נדבר על הביתן שלכם</span></a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ACT 1 · the hall. A tilted floor rises into the plan you operate. -->
+  <section class="act-hall" data-sc-act="pin" data-sc-span="2" id="hall" aria-labelledby="h1">
+    <div data-sc-stage class="hall-stage">
+      <div class="far" aria-hidden="true"><img src="assets/cyber/black-hat-lv-2025-zero-1-s.webp" alt=""></div>
+
+      <div class="hero-copy">
+        <h1 id="h1">
+          <span class="he">כל ביתן מתחיל כמלבן של טייפ על רצפת האולם.</span>
+          <span class="en">Every booth starts as a rectangle of tape on a hall floor.</span>
+        </h1>
+        <p class="hero-sub">
+          <span class="he">ביימן כהן בירן מתכננים ובונים ביתנים לחברות סייבר בתערוכות בחו״ל, מהקונספט ועד ההקמה באולם.</span>
+          <span class="en">Beiman Cohen Biran designs and builds booths for cyber companies at shows abroad, from the concept to the build in the hall.</span>
+        </p>
+      </div>
+
+      <div class="hall-wrap">
+        <div class="hall" id="hall-plan" data-hall="hero" aria-label="Floor plan"></div>
+      </div>
+
+      <div class="near-tape" aria-hidden="true"></div>
+
+      <div class="chooser" id="chooser">
+        <p class="chooser__q">
+          <span class="he">באיזו תערוכה אתם ב-2027? בחרו, והמגרשים שבנינו בה יידלקו.</span>
+          <span class="en">Which show are you at in 2027? Pick it, and the plots we built there light up.</span>
+        </p>
+        <div class="chips" role="group" aria-label="Shows" id="chips"></div>
+        <p class="chooser__hint" data-dyn="hint" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 2 · signature: one taped plot opens into its booth. -->
+  <section class="act-open" data-sc-act="pin" data-sc-span="2.6" id="open" aria-labelledby="h2-open">
+    <div data-sc-stage class="open-stage">
+      <div class="op-frame" id="op-frame">
+        <div class="op-media" id="op-media"></div>
+      </div>
+      <p class="op-tag" id="op-tag" aria-hidden="true"></p>
+      <i class="op-t op-t--top" aria-hidden="true"></i>
+      <i class="op-t op-t--bottom" aria-hidden="true"></i>
+      <i class="op-t op-t--left" aria-hidden="true"></i>
+      <i class="op-t op-t--right" aria-hidden="true"></i>
+      <div class="op-intro" id="op-intro">
+        <h2 id="h2-open">
+          <span class="he">מלבן אחד, אחרי שבנינו עליו.</span>
+          <span class="en">One rectangle, after we built on it.</span>
+        </h2>
+      </div>
+      <div class="op-cap" id="op-cap">
+        <p class="op-cap__client" data-dyn="op-client"></p>
+        <p class="op-cap__where" data-dyn="op-where"></p>
+        <button type="button" class="op-all" id="op-all">
+          <span class="he">כל התמונות של הביתן</span><span class="en">All photos of this booth</span>
+        </button>
+      </div>
+      <div class="op-index" id="op-index" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ACT 3 · flying low over the lit hall. -->
+  <section class="act-fly" data-sc-act="pin" data-sc-span="2.4" id="fly" aria-labelledby="h2-fly">
+    <div data-sc-stage class="fly-stage">
+      <div class="fly-wrap">
+        <div class="hall hall--wide hall--lit" id="fly-plan" data-hall="fly"></div>
+      </div>
+      <div class="fly-copy">
+        <h2 id="h2-fly">
+          <span class="he">כל האולם, עם האורות דולקים.</span>
+          <span class="en">The whole hall, lights on.</span>
+        </h2>
+        <p>
+          <span class="he">ביתנים שתכננו ובנינו לחברות סייבר, מלאס וגאס ועד דובאי. לחצו על מגרש כדי להיכנס.</span>
+          <span class="en">Booths we designed and built for cyber companies, from Las Vegas to Dubai. Tap a plot to walk in.</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACT 4 · authored silence. -->
+  <section class="act-time" data-sc-act="flow" id="time">
+    <p class="time__when" data-dyn="when"></p>
+    <p class="time__left" data-dyn="left"></p>
+  </section>
+
+  <!-- ACT 5 · PEAK. Your plot, taped out, with the form inside. -->
+  <section class="act-offer" data-sc-act="flow" id="offer" aria-labelledby="h2-offer">
+    <div class="nb" id="nb" aria-hidden="true"></div>
+    <div class="yours" id="yours">
+      <i class="yt yt--1" aria-hidden="true"></i>
+      <i class="yt yt--2" aria-hidden="true"></i>
+      <i class="yt yt--3" aria-hidden="true"></i>
+      <i class="yt yt--4" aria-hidden="true"></i>
+      <p class="yours__tag" data-dyn="tag"></p>
+      <p class="stencil" data-dyn="stencil" aria-hidden="true"></p>
+
+      <div class="yours__in">
+        <div class="yours__say">
+          <h2 id="h2-offer" data-dyn="offer-h"></h2>
+          <p class="yours__p">
+            <span class="he">השאירו פרטים, ומתן יחזור אליכם עם ביתנים שבנינו לחברות כמוכם ועם הצעה לתערוכה שלכם.</span>
+            <span class="en">Leave your details and Matan will get back to you with booths we built for companies like yours, and a proposal for your show.</span>
+          </p>
+          <button type="button" class="wa" data-wa>
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            <span class="he">מעדיפים לכתוב? וואטסאפ למתן</span><span class="en">Rather write? WhatsApp Matan</span>
+          </button>
+        </div>
+
+        <form class="form" id="lead" novalidate>
+          <label><span class="he">שם</span><span class="en">Name</span>
+            <input name="name" required autocomplete="name"></label>
+          <label><span class="he">חברה</span><span class="en">Company</span>
+            <input name="company" required autocomplete="organization" id="f-company"></label>
+          <label><span class="he">תפקיד</span><span class="en">Role</span>
+            <input name="role" autocomplete="organization-title"></label>
+          <label><span class="he">באיזו תערוכה?</span><span class="en">Which show?</span>
+            <select name="show" id="f-show"></select></label>
+          <label><span class="he">גודל ביתן משוער</span><span class="en">Approx. booth size</span>
+            <select name="size" id="f-size"></select></label>
+          <label><span class="he">טלפון</span><span class="en">Phone</span>
+            <input name="phone" type="tel" autocomplete="tel" dir="ltr"></label>
+          <label class="span2"><span class="he">אימייל</span><span class="en">Email</span>
+            <input name="email" type="email" autocomplete="email" dir="ltr"></label>
+          <p class="form__note span2"><span class="he">טלפון או אימייל, אחד מהם מספיק.</span><span class="en">Phone or email, one is enough.</span></p>
+          <button class="send span2" type="submit"><span class="he">שליחה למתן</span><span class="en">Send to Matan</span></button>
+          <div class="thanks span2" tabindex="-1">
+            <p class="thanks__h"><span class="he">נשלח למתן.</span><span class="en">Sent to Matan.</span></p>
+            <p><span class="he">הוא יחזור אליכם עם ביתנים שמתאימים לתערוכה שלכם.</span><span class="en">He will get back to you with booths that fit your show.</span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <img src="assets/mark.png" alt="" width="34" height="30">
+      <p><span class="he">ביימן כהן בירן, המסכית 22, הרצליה פיתוח</span><span class="en">Beiman Cohen Biran, 22 Maskit St, Herzliya Pituach</span></p>
+    </footer>
+  </section>
+</main>
+
+<!-- The opened booth: a taped plot grows into this. -->
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="ov-title" hidden>
+  <div class="ov__clip" id="ov-clip">
+    <img class="ov__bg" id="ov-bg" alt="">
+    <img class="ov__img" id="ov-img" alt="">
+  </div>
+  <i class="ov-t" aria-hidden="true"></i><i class="ov-t" aria-hidden="true"></i><i class="ov-t" aria-hidden="true"></i><i class="ov-t" aria-hidden="true"></i>
+  <div class="ov__ui" id="ov-ui">
+    <div class="ov__top">
+      <div>
+        <p class="ov__client" id="ov-title"></p>
+        <p class="ov__where" id="ov-where"></p>
+      </div>
+      <button type="button" class="ov__close" id="ov-close"><span class="he">סגירה</span><span class="en">Close</span></button>
+    </div>
+    <button type="button" class="ov__nav ov__nav--prev" id="ov-prev"><span class="sr he">התמונה הקודמת</span><span class="sr en">Previous photo</span></button>
+    <button type="button" class="ov__nav ov__nav--next" id="ov-next"><span class="sr he">התמונה הבאה</span><span class="sr en">Next photo</span></button>
+    <div class="ov__bottom">
+      <div class="ov__thumbs" id="ov-thumbs"></div>
+      <button type="button" class="ov__cta" id="ov-cta"></button>
+    </div>
+  </div>
+</div>
+
+<p class="draft"><span class="he">טיוטה פנימית לשיחה עם BCB. שמות הלקוחות ממתינים לאישור, הטופס לא שולח.</span><span class="en">Internal draft for the BCB conversation. Client names await approval; the form does not send.</span></p>
+
+<script src="scrollcraft.js"></script>
+<script>window.__sc = ScrollCraft.mount(document.body);</script>
+<script src="plot.js"></script>
+</body>
+</html>
